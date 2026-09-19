@@ -1,0 +1,25 @@
+# Dataset
+dataset/raw/
+dataset/processed/
+dataset/cropped/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained models
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.pth
+
+# Generated results
+results/
+gradcam/
