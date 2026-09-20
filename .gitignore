@@ -2,6 +2,7 @@
 dataset/raw/
 dataset/processed/
 dataset/cropped/
+dataset/split/
 
 # Python
 __pycache__/
