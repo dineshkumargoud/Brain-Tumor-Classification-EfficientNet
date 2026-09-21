@@ -11,8 +11,8 @@ output_dir = "../dataset/processed"
 
 # Create output folders
 classes = {
-    1: "glioma",
-    2: "meningioma",
+    1: "meningioma",
+    2: "glioma",
     3: "pituitary"
 }
 
@@ -108,3 +108,4 @@ print("==============================")
 print("Total MAT files :", total)
 print("Successfully saved:", success)
 print("Failed           :", failed)
+

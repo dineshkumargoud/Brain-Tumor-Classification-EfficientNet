@@ -43,8 +43,8 @@ print("Total files:", total_files)
 
 print("\nClass counts:")
 
-print("Glioma:", label_counts[1])
-print("Meningioma:", label_counts[2])
+print("Glioma:", label_counts[2])
+print("Meningioma:", label_counts[1])
 print("Pituitary:", label_counts[3])
 
 print("\nFailed files:", len(failed_files))
