@@ -3,6 +3,7 @@ dataset/raw/
 dataset/processed/
 dataset/cropped/
 dataset/split/
+dataset/augmented/
 
 # Python
 __pycache__/
