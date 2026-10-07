@@ -3,9 +3,7 @@ import h5py
 import numpy as np
 from PIL import Image
 
-# -----------------------------
-# Paths
-# -----------------------------
+
 raw_dir = "../dataset/raw"
 output_dir = "../dataset/processed"
 
@@ -20,9 +18,6 @@ for class_name in classes.values():
     os.makedirs(os.path.join(output_dir, class_name), exist_ok=True)
 
 
-# -----------------------------
-# Counters
-# -----------------------------
 total = 0
 success = 0
 failed = 0
@@ -98,9 +93,7 @@ for folder in sorted(os.listdir(raw_dir)):
             print("Error:", e)
 
 
-# -----------------------------
-# Final result
-# -----------------------------
+
 print("\n==============================")
 print("EXTRACTION COMPLETE")
 print("==============================")
